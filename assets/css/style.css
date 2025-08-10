@@ -575,9 +575,12 @@ button, a { transition: var(--transition); }
 .service-card {
   position: relative;
   background: var(--white);
-  text-align: center;
+  text-align: left;
   padding: 40px 30px;
   box-shadow: var(--shadow-2);
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
 }
 
 .service-card .card-icon {
@@ -586,15 +589,19 @@ button, a { transition: var(--transition); }
   margin-bottom: 20px;
 }
 
-.service-card .card-title { margin-bottom: 15px; }
+.service-card .card-title { 
+  margin-bottom: 15px; 
+  text-align: center;
+}
 
 .service-card .card-title > a:is(:hover, :focus) { color: var(--orange-soda); }
 
 .service-card .card-text {
-  color: var(--cadet);
-  font-size: var(--fs-5);
+  color: var(--light-gray);
   line-height: 1.8;
   margin-bottom: 25px;
+  text-align: center;
+  flex-grow: 1;
 }
 
 .service-card .card-link {
@@ -605,6 +612,7 @@ button, a { transition: var(--transition); }
   justify-content: center;
   align-items: center;
   gap: 5px;
+  margin-top: auto;
 }
 
 .service-card:is(:hover, :focus) .card-link { color: var(--orange-soda); }
