@@ -145,7 +145,7 @@ Bedrooms
 Bathrooms
 
 3450
-<ion-icon name="square-outline"></ion-icon>
+<ion-icon name="home-outline"></ion-icon>
 Square Ft
 
 William Seklo

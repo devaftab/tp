@@ -327,7 +327,7 @@ button, a { transition: var(--transition); }
   padding-block: 20px;
 }
 
-.header-bottom .logo img { margin-inline: auto; }
+/* .header-bottom .logo img { margin-inline: auto; } */
 
 .navbar {
   background: var(--white);
